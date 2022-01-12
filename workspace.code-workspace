@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "christmas-three",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "christmas-three"
+	}
+}

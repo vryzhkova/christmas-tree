@@ -16,7 +16,7 @@
     --main-bg-color: #005844;
     --second-bg-color: #C0B487;
     --trigger-color: #E6AB39;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 *, *::after, *::before {
@@ -45,8 +45,9 @@ h1,h2 {
 }
 
 .container {
-    max-width: 1290px;
+    max-width: 1390px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .hide {
@@ -70,4 +71,10 @@ button, input {
 
 button {
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 42px;
+    }
 }
